@@ -5,7 +5,7 @@ import LandingSection from './components/LandingSection'
 import FeaturesSection from './components/FeaturesSection'
 
 class App extends Component {
-  state = {activeLanguage: 'EN'}
+  state = {activeLanguage: 'TE'}
 
   changeLanguage = activeLanguage => {
     this.setState({activeLanguage})
